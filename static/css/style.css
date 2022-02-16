@@ -1,0 +1,49 @@
+body {
+    background-color: #020202;
+}
+
+.container {
+    margin: 25px;
+}
+
+img {
+    margin-bottom: 25px;
+}
+
+h3, p {
+    font-family: 'Courier Prime', monospace;
+    color: whitesmoke;
+}
+
+::selection {
+    color: #020202;
+    background-color: whitesmoke;
+}
+
+::-moz-selection {
+    color: #020202;
+    background-color: whitesmoke;
+}
+
+hr {
+    background-color: whitesmoke !important;
+}
+
+a:link {
+    color: whitesmoke !important;
+}
+
+a:hover {
+    color: gray !important;
+}
+
+a:visited {
+    color: whitesmoke !important;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .mob-hidden {
+        display: none;
+    }
+}
