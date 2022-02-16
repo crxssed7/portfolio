@@ -30,7 +30,7 @@ hr {
 }
 
 a:link {
-    color: whitesmoke !important;
+    color: gray !important;
 }
 
 a:hover {
@@ -38,7 +38,7 @@ a:hover {
 }
 
 a:visited {
-    color: whitesmoke !important;
+    color: gray !important;
 }
 
 @media only screen and (max-width: 768px) {
